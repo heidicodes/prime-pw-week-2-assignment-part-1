@@ -42,6 +42,9 @@ else {
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 
+if( luckyNumber === 2 && adventurous === true ) {
+    console.log( 'Roll the dice!' );  // does not log "Roll the dice!" since both are not true
+}
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
