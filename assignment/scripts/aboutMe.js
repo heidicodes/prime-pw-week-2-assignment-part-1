@@ -25,9 +25,9 @@ let pets = 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
 // 11 - Add two pets to your `pets` variable
-pets += 2; // sets value to own value plus 2;
+pets += 2;  // sets value to own value plus 2;
     // NOTE // alt: pets = pets + 2;
-    // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+// 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
@@ -51,6 +51,16 @@ if( luckyNumber === 2 && adventurous === true ) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
+if( pets < allowedPets ) {
+    console.log( 'I can have more pets!' );  // logs phrase if current pets is < pets allowed
+    // does not log since pets=3 and allowed pets=3
+} if( pets === allowedPets ) {
+    console.log( "I have enough pets");  // logs phrase if current and allowed pets are equal
+    // phrase is logged since pets=3 & allowed pets=3
+} if( pets > allowedPets ) {
+    console.log( 'Oh no, I have too many pets!');  // logs phrase if current pets is > pets allowed;
+    // does not log since pets is not > 3 allowed pets
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
