@@ -14,7 +14,7 @@ let luckyNumber = 8;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!'); 
-// logged sentence by concatenating strings & value of var fullName
+    // logged sentence by concatenating strings & value of var fullName
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
@@ -26,12 +26,18 @@ let pets = 1;
 let friendsPets = 2;
 // 11 - Add two pets to your `pets` variable
 pets += 2; // sets value to own value plus 2;
-// NOTE // alt: pets = pets + 2;
-// 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+    // NOTE // alt: pets = pets + 2;
+    // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
+if( adventurous ) { // if conditional statement with boolean
+    console.log( 'Adventures are great!');  // logs "Adventures are great!" if condition is true
+}
+else {
+    console.log( 'How about we stay home?' );  // logs "How about we stay home" if condition is false
+  }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
